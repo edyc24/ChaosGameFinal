@@ -1,0 +1,85 @@
+---
+title: "ChaosGameReport"
+output: html_document
+date: "2023-02-02"
+---
+
+## Chaos Game
+
+-Este un procedeu iterativ prin care se pot obtine fractali de diferite complexitati.
+
+-Procedeu consta in a pune initial un punct in interiorul unui poligon toate celelalte puncte fiind construite alegand un varf aleator al poligonului si punandu-le la o distanta egala cu fractiunea aleasa fata de varful ales.
+
+-Fractali sunt niste forme geometrice ce se repeta la infinit and proprietatea de stohasticitate.Cei mai multi fractali au arie finita si perimetru infinit.
+
+-Pentru fiecare punct nou acesta mosteneste culoare varfului.
+
+Exemple:
+
+-Pentru triunghi avand fractia de 1/2 obtinem fractalul numit Triunghiul lui Sierpinski.
+
+![](images/image-1480964332.png)
+
+-Pentru patrat avand fractia de 1/2 nu vom obtine un fractal ci o distributie uniforma de puncte, dar daca adaugam niste restricitii atunci vom obtine urmatorii fractali.
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie la fel ca cel precedent atunci vom obtine urmatorul fractal:
+
+![](images/image-1137156845.png)
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie vecinul varfului precedent (in sensul acelor de ceasornic) atunci vom obtine urmatorul fractal:
+
+![](images/image-1830724164.png)
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie la 2 pozitii fata de varful precedent (in sensul acelor de ceasornic) atunci vom obtine urmatorul fractal:
+
+![](images/image-1478655290.png)
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie vecin al varfului precedent daca ultimele doua varfuri au fost aceleasi atunci vom obtine urmatorul fractal:
+
+![](images/image-395145718.png)
+
+-Daca in loc de restrictii adaugam varfuri suplimentare si modificam fractia la 67/100 atunci obtinem alti fractali:
+
+-Daca punem si centru patratului ca varf atunci obtinem urmatorul fractal(numit fractalul Vicsek):
+
+![](images/image-1377258207.png)
+
+-Daca punem ca varfuri mijloacele laturilor patratului atunci obtinem urmatorul fractal numit Covorul lui Sierpinski:
+
+![](images/image-51047423.png)
+
+-Pentru pentagon avand fractia de 61.234/100 atunci obtinem urmatorul fractal:
+
+![](images/image-126594393.png)
+
+-Urmatoarele 3 grafice nu sunt fractali in adevaratul sens al cuvantului dar prezinta un fel de autosimilaritate.
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie la fel ca cel precedent atunci vom obtine urmatorul fractal:
+
+![](images/image-2066425923.png)
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie vecinul varfului precedent (in sensul acelor de ceasornic) atunci vom obtine urmatorul fractal:
+
+![](images/image-1342229588.png)
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie la 2 pozitii fata de varful precedent (in sensul acelor de ceasornic) atunci vom obtine urmatorul fractal:
+
+![](images/image-158057076.png)
+
+-Daca alegem varfurile astfel incat varful curent sa nu fie vecin al varfului precedent daca ultimele doua varfuri au fost aceleasi atunci vom obtine urmatorul fractal:
+
+![](images/image-1939941055.png)
+
+-Daca in loc de restrictii adaugam varfuri suplimentare atunci obtinem alti fractali:
+
+-Daca punem si centru patratului ca varf atunci obtinem urmatorul fractal:
+
+![](images/image-1086757844.png)
+
+-Daca punem ca varfuri mijloacele laturilor pentagonului atunci obtinem urmatorul fractal:
+
+![](images/image-1397254935.png)
+
+Project evolution(step by step):
+
+![](images/image-2045236909.png)
